@@ -1,0 +1,12 @@
+* text=auto
+
+# Текстовые материалы и данные должны читаться и сравниваться в Git.
+*.md text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.jsonl text eol=lf
+*.sha256 text eol=lf
+*.txt text eol=lf
+
+# Иллюстрации хранятся как обычные двоичные файлы без Git LFS.
+*.png binary
